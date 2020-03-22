@@ -1,0 +1,382 @@
+body {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+  background-color: #f1f1f1;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+nav {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav .fab,
+nav .fa {
+  line-height: 1;
+  color: white;
+  padding: 8px 16px;
+}
+
+.iconContainer ul {
+  padding-left: 0;
+}
+
+.iconContainer ul li {
+  display: inline;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.titleContainer {
+  padding: 48px 16px;
+}
+
+.titleContainer h1,
+.titleContainer p {
+  margin: 10px 0;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+header p {
+  font-size: 16px;
+  display: inline;
+  font-weight: 400;
+}
+
+header .hightlight {
+  color: #fff;
+  background-color: #000;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.imgHeader {
+  width: 100%;
+}
+
+.imgHeader img {
+  width: 100%;
+  height: auto;
+}
+
+.subheaderContainer {
+  color: #fff;
+  padding: 12px 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.subheaderContainer .author,
+.subheaderContainer h2,
+.subheaderContainer .subscribe {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+.subheaderContainer .author {
+  font-size: 36px;
+}
+
+.subheaderContainer h2 {
+  font-size: 64px;
+}
+
+.subheaderContainer .subscribe {
+  color: #000;
+  background-color: #fff;
+  font-size: 18px;
+  letter-spacing: 0;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid transparent;
+}
+
+.contentContainer {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.leftColumn {
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.leftContent {
+  margin: 16px;
+  padding: 12px 24px;
+  background-color: #fff;
+  letter-spacing: 0.6px;
+}
+
+.leftContent {
+  text-align: center;
+}
+
+.leftContent .title h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.leftContent .title h6 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.leftContent .title .date {
+  color: grey;
+}
+
+.leftContent .paragraph {
+  text-align: left;
+}
+
+.leftContent .button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button .like,
+.button .reply {
+  padding: 0px 16px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.button .like {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.button .reply {
+  background-color: #000;
+  color: #fff;
+}
+
+.button .reply .number {
+  color: #000;
+  background-color: #fff;
+  padding: 0px 8px;
+}
+
+.leftContent hr {
+  box-sizing: content-box;
+  border: 0px;
+  border-top: 1px solid #eee;
+  margin: 20px 0px;
+}
+
+.comContentContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.commentContainer img {
+  padding-right: 16px;
+  height: 90px;
+}
+
+.comContent {
+  text-align: left;
+}
+
+.comContent h4 {
+  font-family: "Oswald", sans-serif;
+  margin: 10px 0;
+}
+
+.comContent .time {
+  color: grey;
+}
+
+.rightColumn {
+  padding: 8px 16px;
+  overflow: auto;
+}
+
+.rightContent {
+  margin-top: 16px;
+  margin-right: 16px;
+  background-color: #fff;
+}
+
+.rightContent .rightTitle {
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+}
+
+.introPic {
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #000;
+}
+
+.intro p {
+  margin-top: 0;
+}
+
+.rightContent h5 {
+  margin: 10px 0;
+}
+
+.rightContent ul {
+  margin: 0;
+  padding: 0;
+}
+
+.rightContent ul li {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 8px 16px;
+}
+
+.rightContent ul li div {
+  padding-right: 16px;
+}
+
+.post .postTitle {
+  font-size: 18px;
+}
+
+.insContainer {
+  padding-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.ins {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.insPic {
+  width: 200px;
+}
+
+.adbox {
+  margin-top: 0;
+}
+
+.advertise {
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+}
+
+.tagbox {
+  width: 100%;
+}
+
+.tagContainer {
+  padding: 16px;
+}
+
+.tagContainer span {
+  font-size: 15px;
+  background-color: #f1f1f1;
+  color: #000;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.postPic {
+  width: 50px;
+}
+
+.advertise {
+  height: 200px;
+}
+
+.socialMedia {
+  font-size: 25px;
+  padding: 8px 16px;
+}
+
+form {
+  padding: 8px 16px;
+}
+
+form label {
+  margin: 10px 0;
+}
+
+form .email {
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  padding: 16px 0;
+  margin: 10px 0;
+}
+
+form button {
+  color: #fff;
+  background-color: #f44336;
+  width: 100%;
+  border: 0px;
+  font-size: 15px;
+  padding: 8px 16px;
+}
+
+footer {
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  width: 100%;
+  display: block;
+  background-color: #616161;
+  padding: 32px;
+}
+
+.footerContainer button {
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footerContainer p {
+  letter-spacing: 1px;
+  margin: 15px 0px;
+  color: #fff;
+}
+
+.footerContainer p a {
+  color: white;
+}
